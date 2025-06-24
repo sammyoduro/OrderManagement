@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj": {}
+    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj": {}
   },
   "projects": {
-    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj": {
+    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj",
+        "projectUniqueName": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj",
         "projectName": "OrderManagement",
-        "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj",
+        "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj",
         "packagesPath": "/Users/SAMMYODURO/.nuget/packages/",
-        "outputPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/obj/",
+        "outputPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/SAMMYODURO/.nuget/NuGet/NuGet.Config"

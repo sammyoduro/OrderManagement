@@ -69,6 +69,23 @@ public class OrderService : IOrderService
         await _context.SaveChangesAsync();
         return order;
     }
+    
+    //Delete an order referencing the order id
+    public async Task<(bool,string)> DeleteOrderAsync(Guid id)
+    {
+        bool worked = false;
+        
+        var order = await _context.orders.FindAsync(id);
+        if (order == null)
+        {
+            return (worked, "Order not found");
+        }
+        
+        _context.orders.Remove(order);
+        await _context.SaveChangesAsync();
+        worked = true;
+        return (worked, "Order deleted");
+    }
 
     // Calculates analytics: average order value and average fulfillment time in minutes
     public async Task<(double avgValue, double avgFulfillTime)> GetAnalyticsAsync()

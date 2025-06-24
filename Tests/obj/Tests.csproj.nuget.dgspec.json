@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/Tests/Tests.csproj": {}
+    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/Tests/Tests.csproj": {}
   },
   "projects": {
-    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj": {
+    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj",
+        "projectUniqueName": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj",
         "projectName": "OrderManagement",
-        "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj",
+        "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj",
         "packagesPath": "/Users/SAMMYODURO/.nuget/packages/",
-        "outputPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/obj/",
+        "outputPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/SAMMYODURO/.nuget/NuGet/NuGet.Config"
@@ -64,6 +64,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -89,14 +93,14 @@
         }
       }
     },
-    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/Tests/Tests.csproj": {
+    "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/Tests/Tests.csproj",
+        "projectUniqueName": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/Tests/Tests.csproj",
+        "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/Tests/Tests.csproj",
         "packagesPath": "/Users/SAMMYODURO/.nuget/packages/",
-        "outputPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/Tests/obj/",
+        "outputPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/SAMMYODURO/.nuget/NuGet/NuGet.Config"
@@ -111,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj": {
-                "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagementSystem/OrderManagement/OrderManagement.csproj"
+              "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj": {
+                "projectPath": "/Users/SAMMYODURO/Desktop/GIG/REMOTE/OrderManagement/OrderManagement/OrderManagement.csproj"
               }
             }
           }

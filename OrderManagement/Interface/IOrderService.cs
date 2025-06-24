@@ -9,5 +9,6 @@ public interface IOrderService
     Task<Order> GetOrderAsync(Guid id);
     Task<Order> CreateOrderAsync(OrderDto order);
     Task<Order?> UpdateStatusAsync(Guid id, OrderStatus newStatus);
+    Task<(bool result, string message)> DeleteOrderAsync(Guid id);
     Task<(double avgValue, double avgFulfillTime)> GetAnalyticsAsync();
 }

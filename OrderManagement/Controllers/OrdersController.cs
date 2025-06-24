@@ -52,6 +52,15 @@ public class OrdersController : Controller
         var result = await _orderService.UpdateStatusAsync(id, status);
         return result == null ? NotFound() : Ok(result);
     }
+
+    [HttpDelete("Delete-Order/{id}")]
+    [SwaggerOperation(Summary = "Delete an order", Description = "Returns success if oder is deleted else failed")]
+    public async Task<IActionResult> DeleteOrderAsync(Guid id)
+    {
+        var (result,message) = await _orderService.DeleteOrderAsync(id);
+        return result ? Ok(message) : NotFound(new { message });
+    }
+    
     
     [HttpGet("analytics")]
     [SwaggerOperation(Summary = "Get analytics data", Description = "Returns average order value and average fulfillment time.")]
